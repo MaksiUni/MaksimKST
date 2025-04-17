@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="bg" oncontextmenu="return false;" ondragstart="return false;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Нашият магазин е създаден с една основна цел: да донесе специализирано кафе от най-добрите производители по света и да запознае българските любители на кафе с уникалните аромати и вкусове на истинското спешълти кафе. Внасяме кафе от различни държави, като Колумбия, Бразилия, Кения, Гватемала и Етиопия, като всяко зърно е внимателно подбрано заради своето качество и характер." />
+    <meta name="keywords" content="кафе Варна, кафене Варна, Седем без десет, кафе, кафене, coldbrew, flatwhite, лате, капучино"/>
+    <meta name="author" content="Седем без десет" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Контакти</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Petit+Formal+Script&family=Russo+One&family=Style+Script&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Style+Script&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Style+Script&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Style+Script&display=swap" rel="stylesheet"/>
+
+    <script
+      src="https://kit.fontawesome.com/1b3b7e65a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-small">
+          <img src="logo.png" alt="Лого">
+          <a href="index.html">
+      </div>
+      <div class="free-coffee">
+        <span id="free-coffee-text">При покупка на девет напитки, десетата е безплатна</span>
+      </div>
+
+
+      <div class="fog"></div>
+    
+      <div id="promo-popup">
+        <p>☕ Специална оферта! Вземи 2 кафета, плати 1! ☕</p>
+        <button onclick="closePopup()">Затвори</button>
+    </div>
+
+      <div class="first-line"></div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="kafe.html">Кафе</a></li>
+          <li><a href="aksesoari.html">Аксесоари</a></li>
+
+          <li><a href="za-nas.html">За нас</a></li>
+          <li><a href="kontakti.html">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="first-line"></div>
+    </div>
+
+    <div class="contacts-main">
+      <div class="contact-form-container-unique" style="margin-top: 20px;padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+        <h2 class="contact-form-title-unique" style="text-align: center; color: white"> Свържете се с нас</h2>
+        <form
+          action=""
+          method="POST"
+          class="contact-form-unique"
+          style="max-width: 500px; margin: 0 auto">
+          <label for="first-name" class="contact-form-label-unique">Име*</label>
+          <input type="text" id="first-name" name="first-name" required class="contact-form-input-unique"/>
+
+          <label for="last-name" class="contact-form-label-unique">Фамилия*</label>
+          <input type="text" id="last-name" name="last-name" required class="contact-form-input-unique"/>
+
+          <label for="email" class="contact-form-label-unique">Имейл*</label>
+          <input type="email" id="email"  name="email" required  class="contact-form-input-unique" />
+
+          <label for="subject" class="contact-form-label-unique">Тема*</label>
+          <input  type="text" id="subject" name="subject"required  class="contact-form-input-unique" />
+
+          <label for="message" class="contact-form-label-unique">Съобщение*</label>
+          <textarea id="message" name="message" rows="4" required class="contact-form-textarea-unique"></textarea>
+          <button type="submit" class="contact-form-button-unique">Изпрати</button>
+        </form>
+      </div>
+      <div class="location">
+        <h1>Местоположение:</h1>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.844331588213!2d27.915403376586327!3d43.22939737112467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a455c76b61aaab%3A0x7d68bafbb5fba9a5!2z0KLRgNC-0LzQvtGA0LAg0YLQtdGF0L3QvtC9IC0g0JLQtdGA0L7QstC-0LTRltGPINCU0L7QvdCw0YbRltGP!5e0!3m2!1sbg!2sbg!4v1709465516591!5m2!1sbg!2sbg" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+      
+        <h1>Работно време:</h1>
+        <div class="table_schedule">
+          <table>
+            <tbody>
+              <tr>
+                <td>Понеделник</td>
+                <td>🕖 06:50 - 18:50</td>
+              </tr>
+              <tr>
+                <td>Вторник</td>
+                <td>🕖 06:50 - 18:50</td>
+              </tr>
+              <tr>
+                <td>Сряда</td>
+                <td>🕖 06:50 - 18:50</td>
+              </tr>
+              <tr>
+                <td>Четвъртък</td>
+                <td>🕖 06:50 - 18:50</td>
+              </tr>
+              <tr>
+                <td>Петък</td>
+                <td>🕖 06:50 - 18:50</td>
+              </tr>
+              <tr>
+                <td class="weekend">Събота</td>
+                <td>🕗<span class="weekend"> 08:00 - 14:00</span></td>
+              </tr>
+              <tr>
+                <td class="weekend">Неделя</td>
+                <td>🕗<span class="weekend"> 08:00 - 14:00</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+    <div class="first-line" style="margin-top: 10px"></div>
+    <div class="footer">
+      <div id="icons">
+        <a href="https://www.facebook.com/" ><i class="fa-brands fa-facebook fa-xs" style="color: #ffffff"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff"></i ></a>
+        <a href="https://x.com/"><i class="fa-brands fa-twitter fa-xs" style="color: #ffffff"></i></a>
+        <a href="https://www.youtube.com/" ><i class="fa-brands fa-youtube fa-xs" style="color: #ffffff"></i></a>
+      </div>
+      <p class="footer-p">
+        <a href="https://www1.tu-varna.bg/tu-varna/">ТУ - Варна</a> | © Седем без десет 2025 | Максим Енчев
+      </p>
+      <p class="footer-p">All rights reserved</p>
+    </div>
+
+    <script type="text/javascript" src="title.js"></script>
+  </body>
+</html>

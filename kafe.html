@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="bg" oncontextmenu="return false;" ondragstart="return false;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Нашият магазин е създаден с една основна цел: да донесе специализирано кафе от най-добрите производители по света и да запознае българските любители на кафе с уникалните аромати и вкусове на истинското спешълти кафе. Внасяме кафе от различни държави, като Колумбия, Бразилия, Кения, Гватемала и Етиопия, като всяко зърно е внимателно подбрано заради своето качество и характер."/>
+    <meta name="keywords" content="кафе Варна, кафене Варна, Седем без десет, кафе, кафене, coldbrew, flatwhite, лате, капучино"/>
+    <meta name="author" content="Седем без десет" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Kaфе</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Petit+Formal+Script&family=Russo+One&family=Style+Script&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Style+Script&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Style+Script&display=swap"rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fleur+De+Leah&family=Kelly+Slab&family=PT+Sans+Caption&family=Petit+Formal+Script&family=Russo+One&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Style+Script&display=swap"rel="stylesheet"/>
+
+    <script
+      src="https://kit.fontawesome.com/1b3b7e65a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-small">
+          <img src="logo.png" alt="Лого">
+          <a href="index.html">
+      </div>
+      <div class="free-coffee">
+        <span id="free-coffee-text">При покупка на девет напитки, десетата е безплатна</span>
+      </div>
+      <div class="first-line"></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="kafe.html">Кафе</a></li>
+          <li><a href="aksesoari.html">Аксесоари</a></li>
+          <li><a href="za-nas.html">За нас</a></li>
+          <li><a href="kontakti.html">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="first-line"></div>
+    </div>
+
+    <div class="fog"></div>
+
+    <div id="promo-popup">
+      <p>☕ Специална оферта! Вземи 2 кафета, плати 1! ☕</p>
+      <button onclick="closePopup()">Затвори</button>
+  </div>
+
+    <div class="main">
+      <!-- --------Etiopiq-------------------------------------------------------------------------- -->
+      <div class="ethiopia-header">
+        <img src="./ethiopia-flag.png" alt="ethiopia flag" class="flag1"><br>
+        <h2 class="ethiopia-main">Етиопия</h2>
+      </div>
+      <div class="coffee-container">
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="filtar.png" 
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Филтър на сладостта</h2>
+            <h3>
+              С аромат на свежи горски ягоди и ванилия, обогатен със елегантната
+              сладост на карамел.
+            </h3>
+            <h3>Подходящ за филтрационен метод или еспресо.</h3>
+            <br />
+            <h3>27.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="zlatno.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Златно еспресо</h2>
+            <h3>Плодов вкус с нотки на шоколад и цитрусови плодове.</h3>
+            <h3>Идеален за еспресо или капучино.</h3>
+            <br />
+            <h3>32.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="qdkova.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Ядкова класика</h2>
+            <h3>Наситен вкус с нотки на ядки и леко шоколадов аромат.</h3>
+            <h3>Подходящ за всички видове кафе машини.</h3>
+            <br />
+            <h3>40.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+
+      <!-- --------Braziliq-------------------------------------------------------------------------- -->
+      <div class="ethiopia-header">
+        <img src="./brazil-flag.png" alt="ethiopia flag" class="flag1"><br>
+        <h2 class="ethiopia-main">Бразилия</h2>
+      </div>
+
+      <div class="coffee-container">
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="naslada.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Бразилска наслада</h2>
+            <h3>
+              Силни нотки на шоколад и карамел, с лека изразеност на бразилски
+              орехи и ванилия.
+            </h3>
+            <h3>
+              Идеален за Еспресо, Капучино, Лате. Перфектен за силни и
+              кремообразни напитки.
+            </h3>
+            <br />
+            <h3>25.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="tropical.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Тропическа Бразилия</h2>
+            <h3>
+              Лек плодов вкус с нотки на цитруси и захарен сироп, допълнен с
+              лека подправка на канела и ядки.
+            </h3>
+            <h3>
+              Идеален за Колд Брю, Флет Уайт, Лате. Отличава се с освежаваща и
+              лека текстура, идеален за студени напитки.
+            </h3>
+            <br />
+            <h3>45.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="magiq.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Бразилска магия</h2>
+            <h3>
+              Нотки на мед, млечен шоколад и карамел, с меко телесно усещане и
+              леко пикантен завършек.
+            </h3>
+            <h3>
+              Идеален за Еспресо, Флет Уайт, Капучино. Подходящ за напитки с
+              неустоима кремообразност и дълбок, запленяващ вкус.
+            </h3>
+            <br />
+            <h3>50.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+
+      <!-- --------Kolumbia-------------------------------------------------------------------------- -->
+      <div class="ethiopia-header">
+        <img src="./colombia-flag.png" alt="ethiopia flag" class="flag1"><br>
+        <h2 class="ethiopia-main">Колумбия</h2>
+      </div>
+
+      <div class="coffee-container">
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="morning.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Колумбийски утрини</h2>
+            <h3>
+              Баланс на нежни нотки карамел, печени ядки и леко плодово сладко.
+              Мек и добре изразен вкус.
+            </h3>
+            <h3>Идеален за Еспресо, Лате, Флет уайт.</h3>
+            <br />
+            <h3>30.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="taina.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Тайната на Антиокия</h2>
+            <h3>
+              Интензивен вкус с нотки на тъмен шоколад, карамел и леко печено
+              кафе, завършващи с фин орехов послевкус.
+            </h3>
+            <h3>
+              Капучино, Лате, Еспресо. Този сорт е перфектен за млечни напитки,
+              които ще подчертаят богатството на шоколадовите и орехови нотки.
+            </h3>
+            <br />
+            <h3>48.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="surprise.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Колумбийска изненада</h2>
+            <h3>
+              Изключително плодов вкус с червени плодове и лек шоколад, съчетан
+              с фини цветни нотки и освежаваща киселинност.
+            </h3>
+            <h3>
+              Идеален за Еспресо, Флет уайт, Колд брю. Идеално за създаване на
+              напитки с балансиран вкус и освежаващ характер.
+            </h3>
+            <br />
+            <h3>60.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+
+      <!-- --------Keniq-------------------------------------------------------------------------- -->
+      <div class="ethiopia-header">
+        <img src="./kenia-flag.png" alt="ethiopia flag" class="flag1"><br>
+        <h2 class="ethiopia-main">Кения</h2>
+      </div>
+
+      <div class="coffee-container">
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="sliva.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Тъмна слива и подправки</h2>
+            <h3>
+              Тъмни нотки на слива и черни боровинки, с фина подправена нотка на
+              канела и шоколад, което придава богат и дълбок вкус.
+            </h3>
+            <h3>Идеален за филтрация и кафе с мляко.</h3>
+            <br />
+            <h3>22.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="citrus.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Цитрусова вкусотия</h2>
+            <h3>
+              Жив и плодов вкус с изразени нотки на манго, ананас и цитруси,
+              съчетан с леко подправена сладост.
+            </h3>
+            <h3>Идеално за Капучино или Флет уайт.</h3>
+            <br />
+            <h3>30.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="rai.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Плодов рай</h2>
+            <h3>
+              Интензивен вкус на червени плодове, с нотки на череша и касис,
+              комбинирани с освежаваща киселинност и леко цветно завършване.
+            </h3>
+            <h3>Идеален за Еспресо или Колд брю.</h3>
+            <br />
+            <h3>35.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+
+      <!-- --------Gvatemala-------------------------------------------------------------------------- -->
+      <div class="ethiopia-header">
+        <img src="./Gvatemala-flag.png" alt="ethiopia flag" class="flag1"><br>
+        <h2 class="ethiopia-main">Гватемала</h2>
+      </div>
+
+      <div class="coffee-container">
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="gvatemalarai.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Гватемалски рай</h2>
+            <h3>
+              Плодов и мек вкус с изразени нотки на ябълка и круша, балансиран с
+              леко медена сладост и цветни тонове.
+            </h3>
+            <h3>Идеален за за Eспресо или Kапучино.</h3>
+            <br />
+            <h3>18.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="shoko.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Шоколадова магия</h2>
+            <h3>
+              Интензивен вкус с дълбоки нотки на тъмен шоколад, обогатен с леко
+              ванилово и лешниково завършване.
+            </h3>
+            <h3>Идеално за Филтрация и Флет уайт..</h3>
+            <br />
+            <h3>25.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+        <div class="coffee-item">
+          <div class="coffee-image">
+            <img
+              src="planina.png"
+              alt="coffee-packet"
+              class="coffee-packet-image"
+            />
+          </div>
+          <div class="coffee-text">
+            <h2 class="zaglavie-na-paket">Вкусът на планините</h2>
+            <h3>
+              Подчертано плодов профил с нотки на малини и цитрусови плодове,
+              последвани от леко пикантно и сладко следвкус.
+            </h3>
+            <h3>Идеален за Колд брю или Лате.</h3>
+            <br />
+            <h3>30.00 лв. - 340 гр.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+
+      <!-- ------------------------------------------------------------------- -->
+    </div>
+    <div class="first-line" style="margin-top: 10px"></div>
+    <div class="footer">
+      <div id="icons">
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook fa-xs" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff"></i
+        ></a>
+        <a href="https://x.com/"
+          ><i class="fa-brands fa-twitter fa-xs" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="fa-brands fa-youtube fa-xs" style="color: #ffffff"></i
+        ></a>
+      </div>
+      <p class="footer-p">
+        <a href="https://www1.tu-varna.bg/tu-varna/">ТУ - Варна</a> | © Седем без десет 2025 | Максим Енчев
+      </p>
+      <p class="footer-p">All rights reserved</p>
+    </div>
+    <script type="text/javascript" src="title.js"></script>
+  </body>
+</html>
